@@ -1,0 +1,120 @@
+h1 {
+  color:#00bfff;
+  background-color:#e8ebef;
+  font-family: 'Space Mono', monospace;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+ nav {
+  font-family: 'Space Mono', monospace;
+  font-size: 30px;
+  background-color:#e8ebef;
+  padding:10px;
+  margin-top: 10px;
+  height: 70px;
+   
+}
+
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  width: 272px;
+  height: 50px;
+  text-align: center;
+  }
+
+nav ul li a {
+  text-decoration: none;
+  color: #00bfff;
+  text-transform: uppercase;
+     
+}
+
+nav ul li a:hover {
+    background-color: #c6c6c6;
+    text-decoration: none;
+}
+ 
+nav ul li ul li {
+  display: none;
+  background-color:#e8ebef;
+  z-index: 30;
+  position: relative;
+}
+
+nav ul li:hover ul li {
+  display:block;
+  
+} 
+
+.slide{
+  background-color:#e8ebef; 
+  
+
+}
+  
+.image-carousel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  width: 70%;
+  height: 480px;
+  border: 2px solid black;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+}
+.image-carousel>img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.image-carousel>button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  top: 200px;
+  color: #00bfff;
+}
+ .image-carousel>#btn2{
+   position: relative;
+   float: right;
+ }
+ .columns {
+  
+  background-color:#e8ebef;
+ 
+ }
+ 
+ .row {
+    padding: 10px;
+       }
+
+  .btn {
+    color:#00bfff;
+    background-color:#e8ebef;
+  }
+  .btn:hover {
+    background-color:grey;
+  }
+#footer p{
+  margin-top: 10px;
+  height: 80px;
+  background-color:#e8ebef; 
+}
+
+.facebook {
+  margin-top: -84px;
+  margin-right: 20px;
+  float: right;
+} 
+

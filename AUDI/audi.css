@@ -1,0 +1,77 @@
+header {
+    font-size: 50px;
+    font-family: 'Space Mono', monospace;
+    color: #00bfff;
+    background:#e8ebef;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+.btn{
+    color: #00bfff;
+    margin-top: 16px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    background-color: #e8ebef;
+    border: none;
+    
+}
+.btn:hover{
+      background-color: grey;
+    
+}
+
+.video {
+    background-color:#e8ebef;
+    height: 370px;
+}
+
+iframe{
+    margin-left: 220px;
+}
+
+.col-md-6 {
+    margin-top: 10px;
+}
+
+.img2{
+    padding-top: 10px;
+}
+.img3{
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.price{
+    height: 100px;
+    background:#e8ebef;
+    margin-top: 10px;
+    margin-right: -5px;
+}
+
+.col3 {
+    background:#e8ebef;
+    padding-top: -20px;
+    margin-right: -10px;
+    }
+
+p {
+    font-family:'Space Mono', monospace; 
+    margin-top: 10px;
+    text-indent: 20px;
+    font-size: 19px;
+    
+}
+
+.h3 {
+  color: #00bfff;
+}
